@@ -23,21 +23,5 @@ dist-ssr
 *.sln
 *.sw?
 
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
 
-# Python cache
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
 
-# Node modules
-node_modules/
-
-# Temp files
-tempCodeRunnerFile.py
-
-.venv/
