@@ -1,0 +1,31 @@
+{
+  "name": "qr-watermark-generator",
+  "version": "1.0.0",
+  "description": "A CLI tool to generate watermarked QR codes",
+  "main": "src/watermarker.js",
+  "bin": {
+    "qr-watermarker": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "qr-code",
+    "watermark",
+    "cli",
+    "generator"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "jimp": "^0.22.10",
+    "qrcode": "^1.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
